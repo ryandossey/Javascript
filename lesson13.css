@@ -149,3 +149,74 @@ h1 {
     opacity: 1;
     pointer-events: all;
 }
+
+.container {
+    margin: 50px auto;
+}
+
+.shape-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 2.0rem;
+}
+
+section {
+    padding: 0.5rem 0;
+}
+
+/* Typography */
+h1 {
+    margin: 1.5rem 0 1.0rem;
+}
+
+p {
+    font-size: 20px;
+    min-width: 230px;
+    min-height: 60px;
+}
+
+/* Canvas */
+canvas {
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.35);
+}
+
+/* Forms */
+fieldset {
+    border: 1px solid black;
+    padding: 2rem;
+}
+
+legend {
+    width: inherit;
+    padding: 0 1rem;
+}
+
+button {
+    height: 38px;
+    margin-top: 14px;
+}
+
+button:focus,
+button:active {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Range */
+datalist {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    writing-mode: vertical-lr;
+    width: 185px;
+    margin: 0 0.5rem;
+}
+
+option {
+    padding: 0;
+}
+
+input[type="range"] {
+    width: 200px;
+    margin: 0;
+}
